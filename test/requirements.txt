@@ -1,0 +1,5 @@
+pandas
+yfinance
+streamlit
+ccxt
+python-binance
