@@ -1,5 +1,5 @@
 import argparse
-
+import pandas as pd
 import requests
 
 
@@ -85,3 +85,5 @@ else:
     # Check the usage quota
     print('Remaining requests', odds_response.headers['x-requests-remaining'])
     print('Used requests', odds_response.headers['x-requests-used'])
+
+df = pd.DataFrame(sports_response)
